@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+
+            <a href="Logo.png" class="logo">MUSE</a>
+
+            <input type="checkbox" id="menu"/>
+            <label for="menu"><img src="Logo.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Test</a></li>
+                    <li><a href="formulario.html">Login</a></li>
+                </ul>
+            </nav>
+    
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="Carrito 256x144.png" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+       
+
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Mueble elegante</h1>
+                                <div class="prices">
+                                    <p class="price-1">$4500</p>
+                                    <p class="price-2">$3500</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="imagenes/m1.jpg" alt="">
+                        </div>
+                    </div>    
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Mueble estatic</h1>
+                                <div class="prices">
+                                    <p class="price-1">$5000</p>
+                                    <p class="price-2">$5500</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="imagenes/m2.jpg" alt="">
+                        </div>
+                    </div>         
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Mueble classic</h1>
+                                <div class="prices">
+                                    <p class="price-1">$2500</p>
+                                    <p class="price-2">$3000</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                        </div>
+                        <div class="header-img">
+                            <img src="imagenes/m3.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <hr>
+
+    <section class="promos container" id="lista-1">
+        <h2>Promociones</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Promo 1</h3>
+                    <div class="prices">
+                        <p class="price-1">$6000</p>
+                        <p class="precio">$4500</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar a carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="imagenes/mb1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Promo 2</h3>
+                    <div class="prices">
+                        <p class="price-1">$8000</p>
+                        <p class="precio">$6000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar a carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="imagenes/mb2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-2">
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m5.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles lash</h3>
+                            <p>Madera</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="3"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m6.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles smash</h3>
+                            <p>Madera</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="4"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m7.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles sun</h3>
+                            <p>Madera</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m8.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles moon</h3>
+                            <p>Madera</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swipper-button-next"></div>
+            <div class="swipper-button-prev"></div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-2">
+        <h2>Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m9.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles spy</h3>
+                            <p>Metal</p>
+                            <p class="precio">$10,000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m10.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles crash</h3>
+                            <p>Plastico</p>
+                            <p class="precio">$15,000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m11.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles small</h3>
+                            <p>Plastico</p>
+                            <p class="precio">$1000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenes/m12.jpg" alt="">
+                        <div class="product-txt">
+                            <h3>Muebles sand</h3>
+                            <p>Madera</p>
+                            <p class="precio">$8000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swipper-button-next"></div>
+            <div class="swipper-button-prev"></div>
+        </div>
+
+    </section>
+
+    <footer class="footer container">
+        <div class="link">
+
+            <ul>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Testimonios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Servicios</a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
